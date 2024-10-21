@@ -351,7 +351,16 @@ ol li::before {
 
 }
 
-.Basic{
+.Basic1{
+    margin: 20px 0;
+    padding-top: 10px;
+    float: left;
+    background-color: #fff;
+    height: 390px;
+
+}
+
+.Basic2{
     margin: 20px 0;
     padding-top: 10px;
     float: left;
@@ -480,21 +489,40 @@ ol li::before {
     height: 82vh;
 }
 
-.Blog img {
+.Blog1 img {
     width: 15rem;
     height: 15rem;
 }
  
-.Blog{
+.Blog1{
     height: 100%;
     padding: 1rem;
 }
 
-.Blog h3{
+.Blog1 h3{
     width: 16rem;
 
 }
-.Blog p{
+.Blog1 p{
+    width: 16rem;
+
+}
+
+.Blog2 img {
+    width: 15rem;
+    height: 15rem;
+}
+ 
+.Blog2{
+    height: 100%;
+    padding: 1rem;
+}
+
+.Blog2 h3{
+    width: 16rem;
+
+}
+.Blog2 p{
     width: 16rem;
 
 }
@@ -651,3 +679,69 @@ ol li::before {
     width: 20px;
     height: 20px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .content{
+        display: none;
+    }
+
+   .Main3 ol{
+    display: none;
+   }
+
+   .Main3 .button2{
+    display: none;
+   }
+
+   .Main3 .img2{
+    width: 70rem;
+   }
+
+   
+   .Services p{
+    width: 12em;
+   }
+
+   .Services h4{
+    padding-top: 1rem;
+   }
+
+   .Basic2{
+    display: none;
+   }
+
+   .Basic1 h2{
+    text-align: center;
+   }
+
+  .img6{
+    padding-left: 7rem;
+    width: 102%;
+   }
+
+   .Blog2{
+    display: none;
+   }
+
+   .Blog1 img{
+    width: 100%;
+   }
+
+   .Contact .Location{
+    display: none;
+   }
+
+   .Footer .About{
+    display: none;
+   }
+
+}
+
+
+
+
+
